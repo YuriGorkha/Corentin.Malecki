@@ -250,7 +250,7 @@
                 <input type="reset" class="reset-btn" value="Réinitialiser"><br><br>
             </fieldset>
         </form>
-                    <?php
+            <?php
     if (isset($_POST['message'])) {
         $message = '<h1>Message envoyé depuis la page Contact de sitecv</h1>
         <p><b>Email : </b>' . $_POST['email'] . '<br>
