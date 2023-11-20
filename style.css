@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   }
 
 body {
   background-color: #000000;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: Arial, Helvetica, sans-serif;
   }
   
 img {
@@ -78,7 +78,6 @@ main {
 
   section.diplomes {
     margin-top: 50px; 
-    z-index: 1; 
   }
 
 section {
@@ -94,7 +93,7 @@ h2 {
   color: #ddd ;
   } 
 
-.liste{
+.liste {
   padding-left: 10%;
   padding-right: 10%;
   }
@@ -104,24 +103,24 @@ h2 {
   }
 
 aside {
-  float: left;
+  float: right;
   width: 25%;
   padding-left: 20px;
   margin-top: 11%;
   }
 
-footer{
+footer {
   background: #e5e5e5;
   margin-top: 20px;
   text-align: center;
   }
-  
+
 .Formulaire{
   width:50%;
   margin-left: 25%;
   }
 
- input[type=text], select {
+input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
