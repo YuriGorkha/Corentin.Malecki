@@ -8,12 +8,12 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   }
-  
+
 img {
   max-width: 100%;
   height: auto;
   float: right;
-}
+  }
 
 header {
   text-align: center;
@@ -25,8 +25,8 @@ header {
   }
 
 .profil {
-  margin-left: 1%;
-}
+  margin-left: 0.2%;
+  }
 
 header h1 {
   font-size: 40px;
@@ -49,9 +49,16 @@ nav {
   background-color: #333;
   }
 
+nav li{
+  list-style-type: none;
+}
+
+.submenu{
+  display: none;
+}
+
 nav a {
   float: left;
-  display: block;
   color: #e5e5e5;
   text-align: center;
   padding: 14px 20px;
@@ -59,9 +66,8 @@ nav a {
   text-transform: uppercase;
   }
 
-nav a:hover {
-  background-color: #ddd;
-  color: black;
+a:hover {
+    background-color: #6b6b6b;
   }
 
 .row:after {
@@ -93,7 +99,7 @@ h2 {
   color: #ddd ;
   } 
 
-.liste {
+.liste{
   padding-left: 10%;
   padding-right: 10%;
   }
@@ -109,7 +115,7 @@ aside {
   margin-top: 11%;
   }
 
-footer {
+article {
   background: #e5e5e5;
   margin-top: 20px;
   text-align: center;
